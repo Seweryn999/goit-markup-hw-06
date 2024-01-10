@@ -549,7 +549,7 @@ body {
 }
 .modal-box-label {
   display: block;
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  color: var(--LIGHT-SLATE, #8e8f99);
   margin-bottom: 4px;
 
   /* Small Text */
