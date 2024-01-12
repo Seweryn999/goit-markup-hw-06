@@ -549,7 +549,7 @@ body {
 }
 .modal-box-label {
   display: block;
-  color: var(--LIGHT-SLATE, #8e8f99);
+  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   margin-bottom: 4px;
 
   /* Small Text */
@@ -573,15 +573,15 @@ body {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* Border and icons changed just to :focus */
 .modal-box-inputs:focus {
   border-color: var(--IRIS, #4d5ae5);
 }
-.modal-box-inputs:hover + .modal-box-icons,
+
 .modal-box-inputs:focus + .modal-box-icons {
   fill: var(--IRIS);
 }
-
+/* ... */
 .modal-box-icons {
   position: absolute;
   left: 16px;
