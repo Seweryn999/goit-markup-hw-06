@@ -579,7 +579,7 @@ body {
 }
 
 .modal-box-inputs:focus + .modal-box-icons {
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  fill: #4d5ae5;
 }
 /* ... */
 .modal-box-icons {
