@@ -565,7 +565,7 @@ body {
 }
 .modal-box-inputs {
   border-radius: 4px;
-  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+  border: 1px solid var(--NAVY-BLUE-MODAL, rgba(46, 47, 66, 0.4));
   width: 100%;
   height: 40px;
   background-color: transparent;
@@ -579,7 +579,7 @@ body {
 }
 
 .modal-box-inputs:focus + .modal-box-icons {
-  fill: var(--IRIS);
+  color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
 }
 /* ... */
 .modal-box-icons {
